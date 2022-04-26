@@ -1,9 +1,8 @@
 import dotenv from 'dotenv';
 import express from 'express';
 app.use(express.json());
-import uniqid from 'uniqid'
-
 import moviesRouter from './api/movies';
+import './seedData'
 
 dotenv.config();
 
